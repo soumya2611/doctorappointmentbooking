@@ -18,7 +18,6 @@ const Login = () => {
           email,
           password,
         });
-        console.log(data)
         if (data.success) {
           console.log(data.token);
           localStorage.setItem("admintoken", data.token);
