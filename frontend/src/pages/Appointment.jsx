@@ -81,8 +81,8 @@ const Appointment = () => {
           docInfo.slots_booked[slotDate].includes(slotTime)
             ? false
           : true;
-        console.log(docInfo.slots_booked
-        )
+        // console.log(docInfo.slots_booked
+        // )
         if (isSlotAvailable) {
           // add slot to array
           timeSlot.push({
